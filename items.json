@@ -1,3 +1,4 @@
+
 [ {
     "name": "Starter Sword",
     "damage": 10,
@@ -978,56 +979,56 @@
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 1",
+    "addititional_critdmg": 5,
+    "additional_ecc": 1
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 2",
+    "addititional_critdmg": 10,
+    "additional_ecc": 2
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 3",
+    "addititional_critdmg": 15,
+    "additional_ecc": 3
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 4",
+    "addititional_critdmg": 20,
+    "additional_ecc": 4
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 5",
+    "addititional_critdmg": 25,
+    "additional_ecc": 5
 }
 ]
