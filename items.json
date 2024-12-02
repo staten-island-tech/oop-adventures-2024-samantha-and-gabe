@@ -1,3 +1,4 @@
+
 [ {
     "name": "Starter Sword",
     "damage": 10,
@@ -15,224 +16,224 @@
     }
 
 {
-    "name": "",
-    "damage": ,
+    "name": "Aspect of the Jerry",
+    "damage": 1,
     "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "ecc": 0,
+    "critdmg": 0
     }
 
 { 
-    "name": "",
-    "damage": ,
+    "name": "Fancy Sword",
+    "damage": 20,
     "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "ecc": 0,
+    "critdmg": 0
     }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Rogue Sword",
+    "damage": 20,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Spider Sword",
+    "damage": 30,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Undead Sword",
+    "damage": 30,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "End Sword",
+    "damage": 35,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Cleaver",
+    "damage": 40,
+    "strength": 10,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Squire sword",
+    "damage": 50,
+    "strength": 10,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Flaming Sword",
+    "damage": 50,
+    "strength": 20,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Hunter Knife",
+    "damage": 50,
+    "strength": 40,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Prismarine blade",
+    "damage": 50,
+    "strength": 25,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Voidwalker Katana",
+    "damage": 80,
+    "strength": 40,
+    "ecc": 0,
+    "critdmg": 10 
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Silver Fang",
+    "damage": 100,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Sword of Bad Health",
+    "damage": 200,
+    "strength": 50,
+    "ecc": 0,
+    "critdmg": 50
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Tribal Spear",
+    "damage": 0,
+    "strength": 100,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Mercenary Axe",
+    "damage": 70,
+    "strength": 20,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Frozen Scythe",
+    "damage": 80,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Golem Sword",
+    "damage": 80,
+    "strength": 125,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Raider Axe",
+    "damage": 90,
+    "strength": 70,
+    "ecc": 0,
+    "critdmg": 0 
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Firedust Dagger",
+    "damage": 90,
+    "strength": 45,
+    "ecc": 0,
+    "critdmg": 15
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Twilight Dagger",
+    "damage": 90,
+    "strength": 45,
+    "ecc": 0,
+    "critdmg": 15 
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Revenant Falchion",
+    "damage": 90,
+    "strength": 50,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Aspect of the End",
+    "damage": 100,
+    "strength": 100,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Zombie Sword",
+    "damage": 100,
+    "strength": 50,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Recluse Fang",
+    "damage": 120,
+    "strength": 30,
+    "ecc": 0,
+    "critdmg": 20
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Voidedge Katana",
+    "damage": 125,
+    "strength": 60,
+    "ecc": 0,
+    "critdmg": 20
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Tacticians Sword",
+    "damage": 150,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 20 
 }
 
 {   
-    "name": "",
-    "damage": ,
+    "name": "Blade of the Volcano",
+    "damage": 220,
     "strength": ,
     "ecc": ,
     "critdmg": 
@@ -978,56 +979,56 @@
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
     "name": "",
-    "addititional_defense": ,
+    "addititional_defense": 
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 1",
+    "addititional_critdmg": 5,
+    "additional_ecc": 1
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 2",
+    "addititional_critdmg": 10,
+    "additional_ecc": 2
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 3",
+    "addititional_critdmg": 15,
+    "additional_ecc": 3
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 4",
+    "addititional_critdmg": 20,
+    "additional_ecc": 4
 }
 
 {
-    "name": "",
-    "addititional_critdmg": ,
-    "additional_ecc": ,
+    "name": "Extra Crit Potion 5",
+    "addititional_critdmg": 25,
+    "additional_ecc": 5
 }
 ]
