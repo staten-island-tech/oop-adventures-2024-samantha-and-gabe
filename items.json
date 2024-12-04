@@ -234,35 +234,66 @@
 {   
     "name": "Blade of the Volcano",
     "damage": 220,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "strength": 70,
+    "ecc": 0,
+    "critdmg": 20
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Ragnarock Axe",
+    "damage": 250,
+    "strength": 70,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Arack",
+    "damage": 90,
+    "strength": 0,
+    "ecc": 0,
+    "critdmg": 0
 }
 
 {   
-    "name": "",
-    "damage": ,
-    "strength": ,
-    "ecc": ,
-    "critdmg": 
+    "name": "Scorpion Foil",
+    "damage": 100,
+    "strength": 100,
+    "ecc": 0,
+    "critdmg": 0
 }
 
+{   
+    "name": "Flower of Truth",
+    "damage": 160,
+    "strength": 300,
+    "ecc": 0,
+    "critdmg": 0
+}
+
+{   
+    "name": "Wither Cloak Sword",
+    "damage": 190,
+    "strength": 135,
+    "ecc": 250,
+    "critdmg": 0
+}
+
+{   
+    "name": "Valkyrie",
+    "damage": 270,
+    "strength": 180,
+    "ecc": 0,
+    "critdmg": 0
+}
+
+{   
+    "name": "Dark Claymore",
+    "damage": 500,
+    "strength": 100,
+    "ecc": 0,
+    "critdmg": 0
+}
 
 {
     "name": "",
