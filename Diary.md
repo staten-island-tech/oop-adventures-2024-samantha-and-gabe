@@ -66,3 +66,24 @@ def deal_damage(damage, enemy):
     print(enemy["hp"])
     return enemy["hp"]
 2. Chat gpt returned 
+def create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None):
+    return {
+        "base_hp": base_hp,
+        "additional_hp": additional_hp,
+        "defense": defense,
+        "additional_defense": additional_defense,
+    }
+3. which i then edited and added values to, to become this:
+def create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None):
+    {
+        "base_hp": 100,
+        "additional_hp": 5,
+        "damage": 10,
+        "additional_damage": 5
+    }
+    create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None)
+
+hp = create_hp()  
+custom_hp = create_hp(base_hp=200, additional_hp=50, defense=15, additional_defense=10) 
+Overall i learned how to create an hp variable in which the user could create their own variable, 
+or have the one specific to the game which is what the values represent  
