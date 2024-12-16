@@ -1,5 +1,5 @@
 Date: 12/11/24 CODING ENEMY DAMAGE 
-1. Asked chat gpt to editthis function so a enemy can do damage, my initial function was:  
+1. Asked chat gpt to edit this function so a enemy can do damage, my initial function was:  
     def take_damage(hp, enemy):
         hp -= enemy["damage"]
         print(hp)
@@ -40,5 +40,29 @@ def take_damage(hp, enemy):
 We learned how to reduce hp to a certain point, however, not reach below zero 
 
 
-Date: 12/11/24 CREATE HP VARIABLE 
-1. 
+Date: 12/16/24 CREATE HP VARIABLE 
+1. Asked chat gpt to create an HP variable for the user, input this code to define the variable "hp"
+def take_damage(hp, enemy):
+    hp -= enemy["damage"]
+    hp = max(hp - damage, 0)
+    print(f"Player takes {damage} damage. Remaining HP: {hp}")
+    return hp
+
+
+def choose_weapon():
+    weapon_choice = input("Which weapon would you like to use?").strip()
+    for i in inventory:
+        if weapon_choice == i["name"]:
+            if len(selected_weapon) > 0:
+
+            else:
+                selected_weapon.append(i)
+
+
+
+
+def deal_damage(damage, enemy):
+    enemy["hp"] -= damage
+    print(enemy["hp"])
+    return enemy["hp"]
+2. Chat gpt returned 
