@@ -51,7 +51,8 @@ add_to_inventory(bow)
 
 def take_damage(hp, enemy):
     hp -= enemy["damage"]
-    print(hp)
+    hp = max(hp - damage, 0)
+    print(f"Player takes {damage} damage. Remaining HP: {hp}")
     return hp
 
 
@@ -71,6 +72,7 @@ def deal_damage(damage, enemy):
     enemy["hp"] -= damage
     print(enemy["hp"])
     return enemy["hp"]
+
 
 
     
