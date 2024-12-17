@@ -49,9 +49,10 @@ add_to_inventory(bow)
 # you have an hp variable
 # function should be reusable for any enemy
 
-def take_damage(hp, enemy):
+def take_damage(base_hp, enemy):
     hp -= enemy["damage"]
-    print(hp)
+    hp = max(base_hp - damage, 0)
+    print(f"Player takes {damage} damage. Remaining HP: {base_hp}")
     return hp
 
 
@@ -68,9 +69,23 @@ def choose_weapon():
 
 
 def deal_damage(damage, enemy):
-    enemy["hp"] -= damage
-    print(enemy["hp"])
-    return enemy["hp"]
+    enemy["base_hp"] -= damage
+    print(enemy["base_hp"])
+    return enemy["base_hp"]
+
+def create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None):
+    {
+        "base_hp": 100,
+        "additional_hp": 5,
+        "damage": 10,
+        "additional_damage": 5
+    }
+    create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None)
+
+hp = create_hp()  
+custom_hp = create_hp(base_hp=200, additional_hp=50, defense=15, additional_defense=10)  
+
+
 
 
     
