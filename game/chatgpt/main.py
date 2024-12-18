@@ -86,8 +86,6 @@ hp = create_hp()
 custom_hp = create_hp(base_hp=200, additional_hp=50, defense=15, additional_defense=10)  
 
 
-
-skibid i love toulets 
     
 
 
