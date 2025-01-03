@@ -299,668 +299,281 @@
 
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Farm Suit",
+    "additional_hp": 0,
+    "defense": 100,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Rosettas Armor",
+    "additional_hp": 60,
+    "defense": 110,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Biohazard Armor",
+    "additional_hp": 80,
+    "defense": 50,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Miner Armor",
+    "additional_hp": 20,
+    "defense": 275,
+    "strength": 
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Fairy Armor",
+    "additional_hp": 4,
+    "defense": 4,
+    "strength": 
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Armor of Growth",
+    "additional_hp": 280,
+    "defense": 145,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Monster Hunter Armor",
+    "additional_hp": 220,
+    "defense": 235,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Monster Raider Armor",
+    "additional_hp": 290,
+    "defense": 290,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Perfect Armor",
+    "additional_hp": 0,
+    "defense": 600,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Heat Armor",
+    "additional_hp": 105,
+    "defense": 105,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Shimmering Light Armor",
+    "additional_hp": 400,
+    "defense": 350,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Flamebreaker Armor",
+    "additional_hp": 205,
+    "defense": 205,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Armor of Magma",
+    "additional_hp": 270,
+    "defense": 85,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Emerland Armor",
+    "additional_hp": 350,
+    "defense": 620,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Blaze Armor",
+    "additional_hp": 0,
+    "defense": 410,
+    "strength": 40
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Tarantula Armor",
+    "additional_hp": 350,
+    "defense": 300,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Rising Summer",
+    "additional_hp": 45,
+    "defense": 45,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Gold Hunter Armor",
+    "additional_hp": 625,
+    "defense": 625,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Rekindled Ember Armor",
+    "additional_hp": 785,
+    "defense": 230,
+    "strength": 120
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Thunder Armor",
+    "additional_hp": 820,
+    "defense": 750,
+    "strength": 100
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Shark Scale Armor",
+    "additional_hp": 545,
+    "defense": 545,
+    "strength": 
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Divers Armor",
+    "additional_hp": 300,
+    "defense": 600,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Nutcracker Armor",
+    "additional_hp": 355,
+    "defense": 145,
+    "strength": 0
 
 }
 
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
+    "name": "Wise Dragon Armor",
+    "additional_hp": 350,
+    "defense": 500,
+    "strength": 0
 }
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
-
-}
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
 
-}
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Protector Dragon Armor",
+    "additional_hp": 350,
+    "defense": 600,
+    "strength": 0
 
 }
-{
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
 
-}
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Superior Dragon Armor",
+    "additional_hp": 450,
+    "defense": 600,
+    "strength": 40
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Final Destination Armor",
+    "additional_hp": 600,
+    "defense": 400,
+    "strength": 0
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Diamond Hunter Armor",
+    "additional_hp": 665,
+    "defense": 665,
+    "strength": 0
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Magma Lord Armor",
+    "additional_hp": 895,
+    "defense": 805,
+    "strength": 40
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Crimson Armor",
+    "additional_hp": 725,
+    "defense": 210,
+    "strength": 120
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Hot Crimson Armor",
+    "additional_hp": 915,
+    "defense": 264,
+    "strength": 152
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Infernal Crimson Armor",
+    "additional_hp": 1828,
+    "defense": 530,
+    "strength": 304
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Infernal Aurora Armor",
+    "additional_hp": 1828,
+    "defense": 530,
+    "strength": 0
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Infernal Fervor Armor",
+    "additional_hp": 2054,
+    "defense": 1109,
+    "strength": 0
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+   "name": "Infernal Hollow Armor",
+    "additional_hp": 1828,
+    "defense": 530,
+    "strength": 152
 
 }
 {
-    "name": "",
-    "additional_hp": ,
-    "defense": ,
-    "strength": ,
+    "name": "Infernal Terror Armor",
+    "additional_hp": 1828,
+    "defense": 530,
+    "strength": 120
 
 }
-
 {
     "name": "",
     "additional_ehp": ,
