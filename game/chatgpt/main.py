@@ -44,9 +44,7 @@ def add_to_inventory(item):
 add_to_inventory(sword)
 add_to_inventory(bow)
 
-# function where enemy does damage
-# enemy has a damage field in its data
-# you have an hp variable
+
 # function should be reusable for any enemy
 
 def take_damage(base_hp, enemy):
