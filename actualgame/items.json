@@ -18,7 +18,7 @@
 {
     "name": "Aspect of the Jerry",
     "damage": 1,
-    "strength": ,
+    "strength": 0,
     "ecc": 0,
     "critdmg": 0
     }
@@ -26,7 +26,7 @@
 { 
     "name": "Fancy Sword",
     "damage": 20,
-    "strength": ,
+    "strength": 0,
     "ecc": 0,
     "critdmg": 0
     }
@@ -574,81 +574,6 @@
     "strength": 120
 
 }
-{
-    "name": "",
-    "additional_ehp": ,
-}
-
-{
-    "name": "",
-    "additional_ehp": ,
-}
-
-{
-    "name": "",
-    "additional_ehp": ,
-}
-
-{
-    "name": "",
-    "additional_ehp": ,
-}
-
-{
-    "name": "",
-    "additional_ehp": ,
-}
-
-{
-    "name": "",
-    "addititional_strength": ,
-}
-
-{
-    "name": "",
-    "additional_strength": ,
-}
-
-{
-    "name": "",
-    "addititional_strength": ,
-}
-
-{
-    "name": "",
-    "addititional_strength": ,
-}
-
-{
-    "name": "",
-    "addititional_strength": ,
-}
-
-{
-    "name": "",
-    "addititional_defense": 
-}
-
-{
-    "name": "",
-    "addititional_defense": 
-}
-
-{
-    "name": "",
-    "addititional_defense": 
-}
-
-{
-    "name": "",
-    "addititional_defense": 
-}
-
-{
-    "name": "",
-    "addititional_defense": 
-}
-
 {
     "name": "Extra Crit Potion 1",
     "addititional_critdmg": 5,
