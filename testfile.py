@@ -9,3 +9,4 @@ evil_spirit = Enemy(100, 0, 5)
 
 # Using __dict__ directly
 print(evil_spirit.__dict__)  # Output: {'hp': 100, 'defense': 0, 'damage': 5}
+

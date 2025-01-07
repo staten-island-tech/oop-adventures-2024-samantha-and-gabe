@@ -15,8 +15,8 @@ class Character:
 
     def add_health(self, item): 
         self.health += item['additional_hp'] if 'additional_hp' in item else 0
+        self.Base_health = 100
 
-    self.Base_health = 100
     def add_health(self, health):
         self.health += item['additional_hp'] if 'additional_hp' in item else 0
     
