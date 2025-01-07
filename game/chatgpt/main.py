@@ -44,9 +44,7 @@ def add_to_inventory(item):
 add_to_inventory(sword)
 add_to_inventory(bow)
 
-# function where enemy does damage
-# enemy has a damage field in its data
-# you have an hp variable
+
 # function should be reusable for any enemy
 
 def take_damage(base_hp, enemy):
@@ -85,7 +83,9 @@ def create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense
 hp = create_hp()  
 custom_hp = create_hp(base_hp=200, additional_hp=50, defense=15, additional_defense=10)  
 
-
+- create a new hp variable defense, hp, ehp effective health - add 
+- make the dungeons for every class 
+- pull it all together 
     
 
 
