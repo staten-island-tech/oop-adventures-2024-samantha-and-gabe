@@ -13,6 +13,22 @@ class Character:
             self.health = 0
         print(f"{self.name} takes {damage} damage! Health: {self.health}")
 
+    def add_health(self, item): 
+        self.health += item['additional_hp'] if 'additional_hp' in item else 0
+
+    self.Base_health = 100
+    def add_health(self, health):
+        self.health += item['additional_hp'] if 'additional_hp' in item else 0
+    
+    def equip_item(self, item): 
+        match item['type']:
+            case 'weapon':
+                self.weapon = item 
+                self.damage = item['damage']
+            case 'armor': 
+                self.armor = item 
+                self.health = self.Base_health + item['additional_hp']
+
     def is_alive(self):
         return self.health > 0
 
