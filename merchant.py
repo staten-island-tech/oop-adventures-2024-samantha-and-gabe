@@ -8,21 +8,23 @@ class Merchant:
             'Metal Sword': 50,   # Set price for a potion
             'Fancy Sword': 150,
             'Rogue Sword': 50,   # Set price for a potion
-            'Spider Sword': 150   #
+            'Spider Sword': 150,   #
             'Undead Sword': 100,  # type: ignore
             'End Sword': 50,   # Set price for a potion
             'Flaming Sword': 200, 
             'Hunter Knife':  100,   # Set price for a potion
-            'Prismarine Blade': 150 
+            'Prismarine Blade': 150, 
             'Voildwalker Katana ': 230,   # Set price for a potion
-            'Silver fang': 150 
+            'Silver fang': 150, 
             'Sword of Bad Health': 200,   # Set price for a potion
-            'Tribal Spear': 150 
-            'Mercanary axe': 150    # Set price for armor
-        }
+            'Tribal Spear': 150, 
+            'Mercanary axe': 150 }
         self.coke_price = 50  # Price of chips
         self.coke_probability = 0.05  # 5% chance to sell chips
 
+    def sanitize_input(self, user_input):
+        """Sanitize and format user input to match item keys."""
+        return user_input.strip().title()
 
     def display_items(self):
         """Display the list of items the merchant sells."""
@@ -85,21 +87,24 @@ class Merchant_1:
             'Golem Sword': 50,   # Set price for a potion
             'Raider Axe': 75,
             'Firedust Dagger': 100,   # Set price for a potion
-            'Twilight dagger': 115   #
+            'Twilight dagger': 115,   #
             'Revenant Fachion': 150,  # type: ignore
             'Aspect of the End': 100,   # Set price for a potion
             'Recluse Fang': 200, 
             'Voidedge Katana':  150,   # Set price for a potion
-            'Tacticians Sword': 200 
+            'Tacticians Sword': 200, 
             'Blade of the Volcano': 230,   # Set price for a potion
-            'Ragnarock axe': 150 
+            'Ragnarock axe': 150,
             'Arack': 100,   # Set price for a potion
-            'Scorpion foil': 150 
+            'Scorpion foil': 150, 
             'Flower of truth': 200    # Set price for armor
         }
         self.coke_price = 50  # Price of chips
         self.coke_probability = 0.05  # 5% chance to sell chips
 
+    def sanitize_input(self, user_input):
+        """Sanitize and format user input to match item keys."""
+        return user_input.strip().title()
 
     def display_items(self):
         """Display the list of items the merchant sells."""
@@ -155,18 +160,21 @@ class Merchant_2:
             'Dark Claymore': 150,   # Set price for a potion
             'Rosettas Armor': 75,
             'Biohazard Armor': 100,   # Set price for a potion
-            'Miner Armor': 115   #
+            'Miner Armor': 115,   #
             'Fairy Armor': 50,  # type: ignore
             'Armor of Growth': 100,   # Set price for a potion
             'Perfect Armor': 250, 
             'Shimmering Light Armor':  150,   # Set price for a potion
-            'Blaze Armor': 150 
+            'Blaze Armor': 150, 
             'Monster Hunter Armor': 230,   # Set price for a potion
             'Monster Raider Armor': 150 
         }
         self.coke_price = 50  # Price of chips
         self.coke_probability = 0.05  # 5% chance to sell chips
 
+    def sanitize_input(self, user_input):
+        """Sanitize and format user input to match item keys."""
+        return user_input.strip().title()
 
     def display_items(self):
         """Display the list of items the merchant sells."""
@@ -214,4 +222,8 @@ class Merchant_2:
 Merchant2 = Merchant_2()
 player_coins = Merchant2.sell_item(player_coins)
 print(f"Remaining coins: {player_coins}")
+
+def sanitize_input(self, user_input):
+    """Sanitize and format user input to match item keys."""
+    return user_input.strip().title()
 
