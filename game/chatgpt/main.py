@@ -71,21 +71,7 @@ def deal_damage(damage, enemy):
     print(enemy["base_hp"])
     return enemy["base_hp"]
 
-def create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None):
-    {
-        "base_hp": 100,
-        "additional_hp": 5,
-        "damage": 10,
-        "additional_damage": 5
-    }
-    create_hp(base_hp=None, additional_hp=None, defense=None, additional_defense=None)
 
-hp = create_hp()  
-custom_hp = create_hp(base_hp=200, additional_hp=50, defense=15, additional_defense=10)  
-
-- create a new hp variable defense, hp, ehp effective health - add 
-- make the dungeons for every class 
-- pull it all together 
     
 
 

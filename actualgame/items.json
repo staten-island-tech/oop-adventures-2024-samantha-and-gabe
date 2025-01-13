@@ -406,9 +406,6 @@
         "defense": 300,
         "strength": 0,
         "type": "armor"
-    },
-    {
-        "name": "Rising Summer",
-        "additional_hp": 45,
-        "defense": 45,
+    } 
+]
 
