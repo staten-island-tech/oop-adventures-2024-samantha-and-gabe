@@ -2,7 +2,7 @@ import random
 import json
 import os
 
-# --- Enemy Class ---
+
 class Enemy:
     def __init__(self, name, health, damage, defense, gold):
         self.name = name
@@ -95,7 +95,7 @@ class Character:
         if self.equipped_armor:
             print(f"Equipped Armor: {self.equipped_armor.name}")
 
-# --- Warrior Class ---
+
 class Warrior(Character):
     def __init__(self, name):
         super().__init__(name, 200, 40, 20)
@@ -107,7 +107,7 @@ class Warrior(Character):
         print(f"{self.name} deals {damage} damage with Slash.")
         enemy.take_damage(damage)
 
-# --- Merchant Class ---
+
 class Merchant:
     def __init__(self, dungeon_level):
         self.dungeon_level = dungeon_level
@@ -396,7 +396,7 @@ def load_game():
     return player
 
 
-# --- Main Function ---
+
 def warrior1():
     print("Welcome to the Adventure Game!")
     print("Instructions: \n- Explore dungeons, fight enemies, and gain gold.")
