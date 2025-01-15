@@ -25,7 +25,7 @@ class Enemy:
         print(f"{self.name} damages {player.name} for {damage} damage.")
         player.take_damage(damage)
 
-# --- Item Classes for Weapons and Armor ---
+
 class Weapon:
     def __init__(self, name, damage, strength, ecc, critdmg, price):
         self.name = name
@@ -43,7 +43,7 @@ class Armor:
         self.strength = strength
         self.price = price
 
-# --- Character Class ---
+
 class Character:
     def __init__(self, name, health, damage, defense):
         self.name = name
@@ -51,10 +51,10 @@ class Character:
         self.damage = damage
         self.defense = defense
         self.abilities = []
-        self.inventory = []  # Inventory for weapons and armor
-        self.equipped_weapon = None  # Currently equipped weapon
-        self.equipped_armor = None  # Currently equipped armor
-        self.gold = 0  # Starting gold amount
+        self.inventory = [] 
+        self.equipped_weapon = None  
+        self.equipped_armor = None  
+        self.gold = 0 
 
     def take_damage(self, damage):
         self.health -= damage
@@ -158,7 +158,7 @@ class Merchant:
             for item in items:
                 if isinstance(item, Weapon) or isinstance(item, Armor):
                     print(f"{item_id}. {item.name}: {item.damage if isinstance(item, Weapon) else item.additional_hp} {('damage' if isinstance(item, Weapon) else 'HP')}, {item.price} gold")
-                elif isinstance(item, dict):  # Potions
+                elif isinstance(item, dict):  
                     print(f"{item_id}. {item['name']}: {item['effect']}, {item['price']} gold")
                 item_id += 1
 
@@ -212,7 +212,7 @@ class Merchant:
 
 
 
-# --- Dungeon Class ---
+
 class Dungeon:
     def __init__(self, name, dungeon_level):
         self.name = name
@@ -220,7 +220,6 @@ class Dungeon:
         self.enemies = self.generate_enemies()
 
     def generate_enemies(self):
-        # Define enemy types for specific dungeon themes
         dungeon_themes = {
             "Dark Forest": ["Shadow Fiend", "Vampire Bat", "Corrupted Tree"],
             "Fire Caverns": ["Fire Wraith", "Lava Beast", "Flame Serpent"],
@@ -229,12 +228,12 @@ class Dungeon:
             "Abyssal Depths": ["Sea Serpent", "Kraken Tentacle", "Abyssal Shadow"],
         }
 
-        # Choose enemies based on the dungeon theme
+        
         theme = random.choice(list(dungeon_themes.keys()))
         print(f"The theme of this dungeon is: {theme}")
         enemy_types = dungeon_themes[theme]
 
-        # Generate enemies for this dungeon
+        
         enemies = []
         num_enemies = self.dungeon_level // 5 + 1
         for i in range(num_enemies):
@@ -335,7 +334,7 @@ class Dungeon:
         else:
             print(f"{player.name} has been defeated in the dungeon.")    
 
-# --- Save and Load System ---
+
 def save_game(player):
     save_data = {
         "name": player.name,
@@ -426,7 +425,7 @@ def warrior1():
 
         if not player.is_alive():
             print("Game Over! You have been defeated.")
-            return  # Exit the function to stop the game
+            return  
 
         while True:
             print("\nOptions:")
