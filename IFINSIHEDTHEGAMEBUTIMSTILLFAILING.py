@@ -318,22 +318,55 @@ class Dungeon:
         while player.is_alive() and len(self.enemies) > 0:
             enemy = self.enemies[0]
             print(f"A wild {enemy.name} appears!")
-            player.damage_enemy(enemy)
-            if enemy.is_alive():
-                enemy.damage_player(player)
-            else:
+
+            while enemy.is_alive() and player.is_alive():
+                print("\n--- Battle Options ---")
+                print("1. Attack")
+                print("2. Use Ability")
+                print("3. Flee (Lose half your gold and exit dungeon)")
+
+                choice = input("Choose an action: ").strip()
+                if choice == '1':
+                    player.damage_enemy(enemy)
+                elif choice == '2':
+                    if player.abilities:
+                        print("\n--- Abilities ---")
+                        for idx, ability in enumerate(player.abilities, start=1):
+                            print(f"{idx}. {ability}")
+                        try:
+                            ability_choice = int(input("Choose an ability: ")) - 1
+                            if 0 <= ability_choice < len(player.abilities):
+                                print(f"{player.name} uses {player.abilities[ability_choice]}!")
+                                # Example damage logic; adjust as needed
+                                ability_damage = random.randint(30, 50)
+                                print(f"{player.name} deals {ability_damage} damage!")
+                                enemy.take_damage(ability_damage)
+                            else:
+                                print("Invalid choice. Turn skipped.")
+                        except ValueError:
+                            print("Invalid input. Turn skipped.")
+                    else:
+                        print(f"{player.name} has no abilities to use!")
+                elif choice == '3':
+                    gold_loss = player.gold // 2
+                    player.gold -= gold_loss
+                    print(f"{player.name} flees the dungeon, losing {gold_loss} gold!")
+                    return  # Exit dungeon
+                else:
+                    print("Invalid action. Turn skipped.")
+
+                if enemy.is_alive():
+                    enemy.damage_player(player)
+
+            if not enemy.is_alive():
                 print(f"{enemy.name} has been defeated! It drops {enemy.gold} gold.")
                 player.gold += enemy.gold
-                print(f"{player.name} now has {player.gold} gold.")
                 self.enemies.pop(0)
-
-            if player.is_alive() and len(self.enemies) > 0:
-                print("Next turn...\n")
 
         if player.is_alive():
             print(f"{player.name} has cleared the dungeon!")
         else:
-            print(f"{player.name} has been defeated in the dungeon.")    
+            print(f"{player.name} has been defeated in the dungeon.")
 
 # --- Save and Load System ---
 def save_game(player):
@@ -402,7 +435,7 @@ def warrior1():
     print("Instructions: \n- Explore dungeons, fight enemies, and gain gold.")
     print("- Buy better items from merchants and equip them to get stronger.")
     print("- You can save and quit your progress at any time.")
-    print("----Please do not break my game I already failed the final exam i spent a lot of time learning what this code after using Ai to make it so give me a 100:)")
+    print("----Please do not break my game I already failed the final exam i spent a lot of time(like genuinely 14 around 6pm - 12pm hours over 3 days not including like the hour i studied for the final) learning what this code after using Ai to make it so give me a 100:)")
 
     while True:
         choice = input("Do you want to (1) Start a new game or (2) Load a saved game? ")
