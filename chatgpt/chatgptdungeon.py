@@ -1,6 +1,6 @@
 import random
 
-# Base Class for Characters
+## practice -- archer class 
 class Character:
     def __init__(self, name, health, attack, defense, class_type):
         self.name = name
@@ -24,7 +24,7 @@ class Character:
         print(f"{self.name} attacks {enemy.name} for {damage} damage.")
         enemy.take_damage(damage)
 
-# Warrior Class
+
 class Warrior(Character):
     def __init__(self, name):
         super().__init__(name, 200, 40, 20, "Warrior")
@@ -36,19 +36,8 @@ class Warrior(Character):
         print(f"{self.name} deals {damage} damage with Slash.")
         enemy.take_damage(damage)
 
-# Mage Class
-class Mage(Character):
-    def __init__(self, name):
-        super().__init__(name, 150, 25, 10, "Mage")
-        self.abilities = ["Fireball", "Teleport"]
 
-    def use_ability(self, enemy):
-        print(f"{self.name} uses Fireball!")
-        damage = random.randint(40, 60)
-        print(f"{self.name} deals {damage} damage with Fireball.")
-        enemy.take_damage(damage)
 
-# Archer Class
 class Archer(Character):
     def __init__(self, name):
         super().__init__(name, 120, 35, 15, "Archer")
@@ -60,7 +49,7 @@ class Archer(Character):
         print(f"{self.name} deals {damage} damage with Explosive Arrow.")
         enemy.take_damage(damage)
 
-# Healer Class
+
 class Healer(Character):
     def __init__(self, name):
         super().__init__(name, 100, 15, 10, "Healer")
@@ -72,7 +61,7 @@ class Healer(Character):
         print(f"{self.name} heals {ally.name} for {heal_amount} health.")
         ally.health += heal_amount
 
-# Enemy Class (for Dungeon)
+## enemy for dungeon 
 class Enemy:
     def __init__(self, name, health, attack, defense):
         self.name = name
@@ -94,7 +83,7 @@ class Enemy:
         print(f"{self.name} attacks {player.name} for {damage} damage.")
         player.take_damage(damage)
 
-# Dungeon Class
+
 class Dungeon:
     def __init__(self, name, enemies):
         self.name = name
@@ -123,23 +112,3 @@ class Dungeon:
         else:
             print(f"{player.name} has been defeated in the dungeon.")
 
-# Example Usage
-def main():
-    # Create a player (Warrior)
-    player = Warrior("Hero")
-
-    # Create enemies for the dungeon
-    enemies = [
-        Enemy("Goblin", 50, 10, 5),
-        Enemy("Skeleton", 60, 15, 8),
-        Enemy("Troll", 100, 20, 10)
-    ]
-
-    # Create a dungeon
-    dungeon = Dungeon("The Dark Cavern", enemies)
-
-    # Start the dungeon
-    dungeon.start_dungeon(player)
-
-if __name__ == "__main__":
-    main()

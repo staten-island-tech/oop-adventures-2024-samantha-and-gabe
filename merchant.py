@@ -23,11 +23,9 @@ class Merchant:
         self.coke_probability = 0.05  # 5% chance to sell chips
 
     def sanitize_input(self, user_input):
-        """Sanitize and format user input to match item keys."""
         return user_input.strip().title()
 
     def display_items(self):
-        """Display the list of items the merchant sells."""
         print("Items for sale:")
         for item, price in self.items_for_sale.items():
             print(f"- {item}: {price} coins")
@@ -35,17 +33,15 @@ class Merchant:
 
 
     def attempt_to_sell_coke(self):
-        """Check if the merchant is selling chips with a 5% chance."""
         return random.random() < self.coke_probability
 
 
     def sell_item(self, player_coins):
-        """Simulate the process of buying an item from the merchant."""
         print("\nChoose an item to buy:")
         self.display_items()
 
 
-        # Ask the player to choose an item
+        
         item_choice = input("Enter the item you want to buy (Weapon, Potion, Armor): ").capitalize()
        
         if item_choice in self.items_for_sale:
@@ -70,11 +66,7 @@ class Merchant:
         return player_coins
 
 
-
-
-# Example usage
-player_coins = 200  # Starting amount of coins
-
+player_coins = 200  
 
 merchant = Merchant()
 player_coins = merchant.sell_item(player_coins)
@@ -103,11 +95,9 @@ class Merchant_1:
         self.coke_probability = 0.05  # 5% chance to sell chips
 
     def sanitize_input(self, user_input):
-        """Sanitize and format user input to match item keys."""
         return user_input.strip().title()
 
     def display_items(self):
-        """Display the list of items the merchant sells."""
         print("Items for sale:")
         for item, price in self.items_for_sale.items():
             print(f"- {item}: {price} coins")
@@ -125,7 +115,7 @@ class Merchant_1:
         self.display_items()
 
 
-        # Ask the player to choose an item
+      
         item_choice = input("Enter the item you want to buy (Weapon, Potion, Armor): ").capitalize()
        
         if item_choice in self.items_for_sale:
@@ -195,7 +185,6 @@ class Merchant_2:
         self.display_items()
 
 
-        # Ask the player to choose an item
         item_choice = input("Enter the item you want to buy (Weapon, Potion, Armor): ").capitalize()
        
         if item_choice in self.items_for_sale:
@@ -224,6 +213,5 @@ player_coins = Merchant2.sell_item(player_coins)
 print(f"Remaining coins: {player_coins}")
 
 def sanitize_input(self, user_input):
-    """Sanitize and format user input to match item keys."""
     return user_input.strip().title()
 
